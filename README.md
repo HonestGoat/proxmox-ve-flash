@@ -1,6 +1,6 @@
 # Proxmox VE Flash
 
-![Version](https://img.shields.io/badge/version-9.1--1-blue.svg) ![Platform](https://img.shields.io/badge/platform-x86__64-lightgrey.svg) ![License](https://img.shields.io/badge/license-AGPLv3-green.svg)
+![Version](https://img.shields.io/badge/version-9.1--1-blue.svg) ![Platform](https://img.shields.io/badge/platform-x86__64-lightgrey.svg)
 
 **Proxmox VE Flash** is a modified build of the Proxmox Virtual Environment installer. It allows the user to install Proxmox Virtual Environment on practically any storage media. Including eMMC, USB Flash Drives, External Drives, SD Cards etc.
 
