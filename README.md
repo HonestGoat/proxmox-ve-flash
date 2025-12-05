@@ -5,7 +5,7 @@
 **Proxmox VE Flash** is a modified build of the Proxmox Virtual Environment installer. It allows the user to install Proxmox Virtual Environment on practically any storage media. Including eMMC, USB Flash Drives, External Drives, SD Cards etc.
 
 ## Features
-* **eMMC Support:** Allows for installation on eMMC on Mini PCs and Single Board Computers (Intel NUC, ZimaBoard, Wyse Thin Clients etc).
+* **eMMC Support:** Allows for installation on eMMC on Mini PCs and Single Board Computers (NUC, ZimaBoard, Wyse Thin Clients etc).
 * **SD Card Support:** Enables installation on internal SD card readers. Great for server motherboards with internal SD slots and handhelds like the Steam Deck.
 * **USB Drives:** Lets you install Proxmox on USB Flash drives, external USB/SATA/nVME drives.
 
