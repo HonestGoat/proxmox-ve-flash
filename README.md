@@ -10,7 +10,7 @@
 * **USB Drives:** Lets you install Proxmox on USB Flash drives and external USB/SATA/nVME drives.
 
 ## ⚠️ Critical Steps ⚠️
-Running a Hypervisor on flash storage is absolutely not recommended. Flash storage has terrible write endurance. To prevent rapid drive failure follow these guidelines:
+Running a Hypervisor on flash storage is absolutely not recommended (but totally doable). Just be aware that flash storage has terrible write endurance. To prevent rapid drive failure follow these guidelines:
 1.  **Filesystem:** NEVER use ZFS on flash media. Always select **ext4** during installation.
 2.  **Swap:** Disable swap on the drive and monitor memory closely. Regular swapping will kill an SD/eMMC drive very quickly.
 3.  **VM's and LXC's:** You should not install your VM's and containers on the USB/SD/eMMC as it will cause rapid drive failure. External SSD's are best if you have no other storage interfaces available.
